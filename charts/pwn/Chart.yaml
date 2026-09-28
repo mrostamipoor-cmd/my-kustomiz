@@ -1,0 +1,6 @@
+apiVersion: v2
+name: pwn
+description: sample pwn chart for Argo CD GenerateManifest
+type: application
+version: 0.0.1
+appVersion: "0.0.1"

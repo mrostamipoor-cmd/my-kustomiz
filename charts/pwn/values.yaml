@@ -1,0 +1,7 @@
+replicaCount: 1
+image:
+  repository: docker-releases-local.artifactory.twitter.biz/psec/my-kustomize
+  tag: "0.4.0"
+  pullPolicy: IfNotPresent
+service:
+  port: 80
